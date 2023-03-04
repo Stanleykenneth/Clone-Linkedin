@@ -1,0 +1,844 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Feed - Matching</title>
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="navbar-left">
+            <a href="index.html" class="logo"><img src="/img/Draft Logo MB.jpg"></a>
+
+            <div class="search-box">
+                <img src="/img/search.png">
+                <input type="text" placeholder="Search">
+            </div>
+
+        </div>
+        
+        <div class="navbar-center">
+            <ul>
+                <li><a href="" class="active-link"><img src="/img/home.png"> <span>Home</span></a></li>
+                <li><a href=""><img src="/img/network.png"> <span>My Network</span></a></li>
+                <li><a href=""><img src="/img/jobs.png"> <span>Jobs</span></a></li>
+                <li><a href=""><img src="/img/message.png"> <span>Messaging</span></a></li>
+                <li><a href=""><img src="/img/notification.png"> <span>Notifications</span></a></li>
+            </ul>
+        </div>
+        <div class="navbar-right">
+            <div class="online">
+                <img src="/img/user-1.png" class="nav-profile-img" onclick=" toggleMenu()">
+            </div>            
+        </div>
+
+<!-- profile-drop-down-menu -->
+
+<div class="profile-menu-wrap" id="profileMenu">
+    <div class="profile-menu">
+        <div class="user-info">
+            <img src="/img/user-1.png" style="width: 60px;">
+            <div>
+                <h3>Rayan Walton</h3>
+                <a href="Profile.html">See you profile</a>
+            </div>
+        </div>
+        <hr>
+        <a href="#" class="profile-menu-link">
+            <img src="/img/feedback.png" style="width: 40px;">
+            <p style="margin-left: 30px;">Give feedback</p>
+            <span>></span>
+        </a>
+
+        <a href="#" class="profile-menu-link">
+            <img src="/img/setting.png" style="width: 40px;">
+            <p style="margin-left: 30px;">Settings & Privacy</p>
+            <span>></span>
+        </a>
+
+        <a href="#" class="profile-menu-link">
+            <img src="/img/help.png" style="width: 40px;">
+            <p style="margin-left: 30px;">Help & Support</p>
+            <span>></span>
+        </a>
+
+        <a href="#" class="profile-menu-link">
+            <img src="/img/display.png" style="width: 40px;">
+            <p style="margin-left: 30px;">Display & Accessiblity</p>
+            <span>></span>
+        </a>
+
+        <a href="#" class="profile-menu-link">
+            <img src="/img/logout.png" style="width: 40px;">
+            <p style="margin-left: 30px;">Logout</p>
+            <span>></span>
+        </a>
+    </div>
+</div>
+
+
+
+    </nav>
+  <!-- navibar close-->
+
+  <div class="container">
+    <!-- left-sidebar -->
+    <div class="left-sidebar">
+
+        <div class="sidebar-news">
+           
+            <h3>Matching Business</h3>
+            <a href="#">High demand for skilled manpower</a>
+            <span>1d ago &middot; 10,934 readers</span>
+
+            <a href="#">Careers growing horinzontally too</a>
+            <span>19d ago &middot; 10,555 readers</span>
+
+            <a href="#">Less work visa for US, more for UK</a>
+            <span>1d ago &middot; 27,290 readers</span>
+
+            <a href="#">High demand for skilled manpower</a>
+            <span>1d ago &middot; 10,934 readers</span>
+
+            <a href="#">Gautam Adani is the world's third richest</a>
+            <span>1d ago &middot; 10,934 readers</span>
+
+            <a href="#" class="read-more-link">Read more</a>
+        </div>
+
+       
+
+        <div class="sidebar-activity" id="sidebarActivity">
+
+            <h3 style="text-align: center;">Busca</h3>
+
+               <div class="busca">
+                    <label for="atuacao">País:</label><br>
+                    <select name="atuacao" id="" style="width: 90%; height: 30px;" >
+                        <option value="atuação"></option>
+                    </select>
+               </div>   
+               
+               <div class="busca">
+                    <label for="atuacao" style="margin-top: 10rem;">Operação:</label><br>
+                    <select name="atuacao" id="" style="width: 90%;  height: 30px;" >
+                        <option value="atuação"></option>
+                    </select>
+               </div>   
+               
+               <div class="busca">
+                <label for="atuacao" style="margin-top: 10rem;">Business:</label><br>
+                <select name="atuacao" id="" style="width: 90%;  height: 30px;" >
+                    <option value="atuação"></option>
+                </select>
+                </div>  
+
+                <div class="busca">
+                    <label for="atuacao" style="margin-top: 10rem;">Categoria:</label><br>
+                    <select name="atuacao" id="" style="width: 90%;  height: 30px;" >
+                        <option value="atuação"></option>
+                    </select>
+                </div>  
+
+               <div class="col-sm-6, div_feed2" style="justify-content: space-between">
+                    <div>
+                        <select name="coreBusiness" id="" style="width: 70%;  height: 32px; margin-left: 16px; border-radius: 10px;">
+                            <option value="coreBusiness"></option>
+                        </select>
+                        <button style="width: 16%;  height: 30px;"><b style="font-size: 15px;">+</b></button>
+                        </div>
+                        <div>
+                            <textarea name="CoreBusines" id="" cols="30" rows="10" ></textarea>
+                        </div>
+                        <button type="submit" class="button">Procurar</i></button>
+                </div>     
+
+
+            <div class="discover-more-link">
+                <a href="#">Critários de buscas</a>               
+            </div>
+            <div>
+                <textarea name="CoreBusines" id="" cols="30" rows="10" ></textarea>
+            </div>            
+        </div>
+
+        <p id="showMoreLink" onclick="toggleActivity()">Show more <b>+</b></p>
+    </div>
+    <!-- main-content -->
+    <div class="main-content">
+
+        <div class="create-post">
+            <div class="create-post-input">
+                <img src="/img/user-1.png">
+                <textarea rows="2" placeholder="Write a post"></textarea>
+            </div>
+
+            <div class="create-post-links">
+                <li><img src="/img/photo.png">Photo</li>
+                <li><img src="/img/video.png">Video</li>
+                <li><img src="/img/event.png">Event</li>
+                <li>Post</li>
+            </div>
+        </div>
+
+        <div class="sort-by">
+            <hr>
+            <p>Sort by: <span>top <img src="/img/down-arrow.png"></span></p>
+        </div>
+
+        <div class="post">
+            <div class="post-author">
+                <img src="/img/user-2.png">
+                <div>
+                    <h1>Benjamin Leo</h1>
+                    <small>Founder and CEO at Gelleio Group | Angel Investor</small>
+                    <small>2 hours ago</small>
+                </div>
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam ipsam sed beatae. Aut quae quo consectetur necessitatibus deserunt magni consequatur aliquam quisquam dolorem adipisci, nobis tempore distinctio vero ipsa ipsam?</p>
+            <img src="/img/post-image-1.png" width="100%">
+
+            <div class="post-stats">
+                <div>
+                    <img src="/img/thumbsup.png">
+                    <img src="/img/love.png">
+                    <img src="/img/clap.png">
+                    <span class="liked-users">Hekekee sv aefvb and 75 others</span>                    
+                </div>
+
+                <div>
+                    <span>22 comments &middot; 40 shares</span>
+                </div>
+            </div>
+
+            <div class="post-activity">
+                <div>
+                    <img src="/img/user-1.png" class="post-activity-user-icon">
+                    <img src="/img/down-arrow.png" class="post-activity-arrow-icon">
+                </div>
+                <div class="post-activity-link">
+                    <img src="/img/like.png">
+                    <span>Like</span>
+                </div>
+                <div class="post-activity-link">
+                    <img src="/img/comment.png">
+                    <span>Comment</span>
+                </div>
+                <div class="post-activity-link">
+                    <img src="/img/share.png">
+                    <span>Share</span>
+                </div>
+                <div class="post-activity-link">
+                    <img src="/img/send.png">
+                    <span>Send</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="post">
+            <div class="post-author">
+                <img src="/img/user-3.png">
+                <div>
+                    <h1>Clarence George</h1>
+                    <small>Founder and CEO at Gelleio Group | Angel Investor</small>
+                    <small>2 hours ago</small>
+                </div>
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam ipsam sed beatae. Aut quae quo consectetur necessitatibus deserunt magni consequatur aliquam quisquam dolorem adipisci, nobis tempore distinctio vero ipsa ipsam?</p>
+            <img src="/img/post-image-2.png" width="100%">
+
+            <div class="post-stats">
+                <div>
+                    <img src="/img/thumbsup.png">
+                    <img src="/img/love.png">
+                    <img src="/img/clap.png">
+                    <span class="liked-users">Hekekee sv aefvb and 75 others</span>                    
+                </div>
+
+                <div>
+                    <span>22 comments &middot; 40 shares</span>
+                </div>
+            </div>
+
+            
+
+            <div class="post-activity">
+                <div>
+                    <img src="/img/user-1.png" class="post-activity-user-icon">
+                    <img src="/img/down-arrow.png" class="post-activity-arrow-icon">
+                </div>
+                <div class="post-activity-link">
+                    <img src="/img/like.png">
+                    <span>Like</span>
+                </div>
+                <div class="post-activity-link">
+                    <img src="/img/comment.png">
+                    <span>Comment</span>
+                </div>
+                <div class="post-activity-link">
+                    <img src="/img/share.png">
+                    <span>Share</span>
+                </div>
+                <div class="post-activity-link">
+                    <img src="/img/send.png">
+                    <span>Send</span>
+                </div>
+            </div>         
+
+        </div>
+
+        <div class="post">
+            <div class="post-author">
+                <img src="/img/user-2.png">
+                <div>
+                    <h1>Benjamin Leo</h1>
+                    <small>Founder and CEO at Gelleio Group | Angel Investor</small>
+                    <small>2 hours ago</small>
+                </div>
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam ipsam sed beatae. Aut quae quo consectetur necessitatibus deserunt magni consequatur aliquam quisquam dolorem adipisci, nobis tempore distinctio vero ipsa ipsam?</p>
+            <img src="/img/post-image-1.png" width="100%">
+
+            <div class="post-stats">
+                <div>
+                    <img src="/img/thumbsup.png">
+                    <img src="/img/love.png">
+                    <img src="/img/clap.png">
+                    <span class="liked-users">Hekekee sv aefvb and 75 others</span>                    
+                </div>
+
+                <div>
+                    <span>22 comments &middot; 40 shares</span>
+                </div>
+            </div>
+
+            <div class="post-activity">
+                <div>
+                    <img src="/img/user-1.png" class="post-activity-user-icon">
+                    <img src="/img/down-arrow.png" class="post-activity-arrow-icon">
+                </div>
+                <div class="post-activity-link">
+                    <img src="/img/like.png">
+                    <span>Like</span>
+                </div>
+                <div class="post-activity-link">
+                    <img src="/img/comment.png">
+                    <span>Comment</span>
+                </div>
+                <div class="post-activity-link">
+                    <img src="/img/share.png">
+                    <span>Share</span>
+                </div>
+                <div class="post-activity-link">
+                    <img src="/img/send.png">
+                    <span>Send</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="post">
+            <div class="post-author">
+                <img src="/img/user-2.png">
+                <div>
+                    <h1>Benjamin Leo</h1>
+                    <small>Founder and CEO at Gelleio Group | Angel Investor</small>
+                    <small>2 hours ago</small>
+                </div>
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam ipsam sed beatae. Aut quae quo consectetur necessitatibus deserunt magni consequatur aliquam quisquam dolorem adipisci, nobis tempore distinctio vero ipsa ipsam?</p>
+            <img src="/img/post-image-1.png" width="100%">
+
+            <div class="post-stats">
+                <div>
+                    <img src="/img/thumbsup.png">
+                    <img src="/img/love.png">
+                    <img src="/img/clap.png">
+                    <span class="liked-users">Hekekee sv aefvb and 75 others</span>                    
+                </div>
+
+                <div>
+                    <span>22 comments &middot; 40 shares</span>
+                </div>
+            </div>
+
+            <div class="post-activity">
+                <div>
+                    <img src="/img/user-1.png" class="post-activity-user-icon">
+                    <img src="/img/down-arrow.png" class="post-activity-arrow-icon">
+                </div>
+                <div class="post-activity-link">
+                    <img src="/img/like.png">
+                    <span>Like</span>
+                </div>
+                <div class="post-activity-link">
+                    <img src="/img/comment.png">
+                    <span>Comment</span>
+                </div>
+                <div class="post-activity-link">
+                    <img src="/img/share.png">
+                    <span>Share</span>
+                </div>
+                <div class="post-activity-link">
+                    <img src="/img/send.png">
+                    <span>Send</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="post">
+            <div class="post-author">
+                <img src="/img/user-2.png">
+                <div>
+                    <h1>Benjamin Leo</h1>
+                    <small>Founder and CEO at Gelleio Group | Angel Investor</small>
+                    <small>2 hours ago</small>
+                </div>
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam ipsam sed beatae. Aut quae quo consectetur necessitatibus deserunt magni consequatur aliquam quisquam dolorem adipisci, nobis tempore distinctio vero ipsa ipsam?</p>
+            <img src="/img/post-image-1.png" width="100%">
+
+            <div class="post-stats">
+                <div>
+                    <img src="/img/thumbsup.png">
+                    <img src="/img/love.png">
+                    <img src="/img/clap.png">
+                    <span class="liked-users">Hekekee sv aefvb and 75 others</span>                    
+                </div>
+
+                <div>
+                    <span>22 comments &middot; 40 shares</span>
+                </div>
+            </div>
+
+            <div class="post-activity">
+                <div>
+                    <img src="/img/user-1.png" class="post-activity-user-icon">
+                    <img src="/img/down-arrow.png" class="post-activity-arrow-icon">
+                </div>
+                <div class="post-activity-link">
+                    <img src="/img/like.png">
+                    <span>Like</span>
+                </div>
+                <div class="post-activity-link">
+                    <img src="/img/comment.png">
+                    <span>Comment</span>
+                </div>
+                <div class="post-activity-link">
+                    <img src="/img/share.png">
+                    <span>Share</span>
+                </div>
+                <div class="post-activity-link">
+                    <img src="/img/send.png">
+                    <span>Send</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="post">
+            <div class="post-author">
+                <img src="/img/user-2.png">
+                <div>
+                    <h1>Benjamin Leo</h1>
+                    <small>Founder and CEO at Gelleio Group | Angel Investor</small>
+                    <small>2 hours ago</small>
+                </div>
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam ipsam sed beatae. Aut quae quo consectetur necessitatibus deserunt magni consequatur aliquam quisquam dolorem adipisci, nobis tempore distinctio vero ipsa ipsam?</p>
+            <img src="/img/post-image-1.png" width="100%">
+
+            <div class="post-stats">
+                <div>
+                    <img src="/img/thumbsup.png">
+                    <img src="/img/love.png">
+                    <img src="/img/clap.png">
+                    <span class="liked-users">Hekekee sv aefvb and 75 others</span>                    
+                </div>
+
+                <div>
+                    <span>22 comments &middot; 40 shares</span>
+                </div>
+            </div>
+
+            <div class="post-activity">
+                <div>
+                    <img src="/img/user-1.png" class="post-activity-user-icon">
+                    <img src="/img/down-arrow.png" class="post-activity-arrow-icon">
+                </div>
+                <div class="post-activity-link">
+                    <img src="/img/like.png">
+                    <span>Like</span>
+                </div>
+                <div class="post-activity-link">
+                    <img src="/img/comment.png">
+                    <span>Comment</span>
+                </div>
+                <div class="post-activity-link">
+                    <img src="/img/share.png">
+                    <span>Share</span>
+                </div>
+                <div class="post-activity-link">
+                    <img src="/img/send.png">
+                    <span>Send</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="post">
+            <div class="post-author">
+                <img src="/img/user-2.png">
+                <div>
+                    <h1>Benjamin Leo</h1>
+                    <small>Founder and CEO at Gelleio Group | Angel Investor</small>
+                    <small>2 hours ago</small>
+                </div>
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam ipsam sed beatae. Aut quae quo consectetur necessitatibus deserunt magni consequatur aliquam quisquam dolorem adipisci, nobis tempore distinctio vero ipsa ipsam?</p>
+            <img src="/img/post-image-1.png" width="100%">
+
+            <div class="post-stats">
+                <div>
+                    <img src="/img/thumbsup.png">
+                    <img src="/img/love.png">
+                    <img src="/img/clap.png">
+                    <span class="liked-users">Hekekee sv aefvb and 75 others</span>                    
+                </div>
+
+                <div>
+                    <span>22 comments &middot; 40 shares</span>
+                </div>
+            </div>
+
+            <div class="post-activity">
+                <div>
+                    <img src="/img/user-1.png" class="post-activity-user-icon">
+                    <img src="/img/down-arrow.png" class="post-activity-arrow-icon">
+                </div>
+                <div class="post-activity-link">
+                    <img src="/img/like.png">
+                    <span>Like</span>
+                </div>
+                <div class="post-activity-link">
+                    <img src="/img/comment.png">
+                    <span>Comment</span>
+                </div>
+                <div class="post-activity-link">
+                    <img src="/img/share.png">
+                    <span>Share</span>
+                </div>
+                <div class="post-activity-link">
+                    <img src="/img/send.png">
+                    <span>Send</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="post">
+            <div class="post-author">
+                <img src="/img/user-2.png">
+                <div>
+                    <h1>Benjamin Leo</h1>
+                    <small>Founder and CEO at Gelleio Group | Angel Investor</small>
+                    <small>2 hours ago</small>
+                </div>
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam ipsam sed beatae. Aut quae quo consectetur necessitatibus deserunt magni consequatur aliquam quisquam dolorem adipisci, nobis tempore distinctio vero ipsa ipsam?</p>
+            <img src="/img/post-image-1.png" width="100%">
+
+            <div class="post-stats">
+                <div>
+                    <img src="/img/thumbsup.png">
+                    <img src="/img/love.png">
+                    <img src="/img/clap.png">
+                    <span class="liked-users">Hekekee sv aefvb and 75 others</span>                    
+                </div>
+
+                <div>
+                    <span>22 comments &middot; 40 shares</span>
+                </div>
+            </div>
+
+            <div class="post-activity">
+                <div>
+                    <img src="/img/user-1.png" class="post-activity-user-icon">
+                    <img src="/img/down-arrow.png" class="post-activity-arrow-icon">
+                </div>
+                <div class="post-activity-link">
+                    <img src="/img/like.png">
+                    <span>Like</span>
+                </div>
+                <div class="post-activity-link">
+                    <img src="/img/comment.png">
+                    <span>Comment</span>
+                </div>
+                <div class="post-activity-link">
+                    <img src="/img/share.png">
+                    <span>Share</span>
+                </div>
+                <div class="post-activity-link">
+                    <img src="/img/send.png">
+                    <span>Send</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="post">
+            <div class="post-author">
+                <img src="/img/user-2.png">
+                <div>
+                    <h1>Benjamin Leo</h1>
+                    <small>Founder and CEO at Gelleio Group | Angel Investor</small>
+                    <small>2 hours ago</small>
+                </div>
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam ipsam sed beatae. Aut quae quo consectetur necessitatibus deserunt magni consequatur aliquam quisquam dolorem adipisci, nobis tempore distinctio vero ipsa ipsam?</p>
+            <img src="/img/post-image-1.png" width="100%">
+
+            <div class="post-stats">
+                <div>
+                    <img src="/img/thumbsup.png">
+                    <img src="/img/love.png">
+                    <img src="/img/clap.png">
+                    <span class="liked-users">Hekekee sv aefvb and 75 others</span>                    
+                </div>
+
+                <div>
+                    <span>22 comments &middot; 40 shares</span>
+                </div>
+            </div>
+
+            <div class="post-activity">
+                <div>
+                    <img src="/img/user-1.png" class="post-activity-user-icon">
+                    <img src="/img/down-arrow.png" class="post-activity-arrow-icon">
+                </div>
+                <div class="post-activity-link">
+                    <img src="/img/like.png">
+                    <span>Like</span>
+                </div>
+                <div class="post-activity-link">
+                    <img src="/img/comment.png">
+                    <span>Comment</span>
+                </div>
+                <div class="post-activity-link">
+                    <img src="/img/share.png">
+                    <span>Share</span>
+                </div>
+                <div class="post-activity-link">
+                    <img src="/img/send.png">
+                    <span>Send</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="post">
+            <div class="post-author">
+                <img src="/img/user-2.png">
+                <div>
+                    <h1>Benjamin Leo</h1>
+                    <small>Founder and CEO at Gelleio Group | Angel Investor</small>
+                    <small>2 hours ago</small>
+                </div>
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam ipsam sed beatae. Aut quae quo consectetur necessitatibus deserunt magni consequatur aliquam quisquam dolorem adipisci, nobis tempore distinctio vero ipsa ipsam?</p>
+            <img src="/img/post-image-1.png" width="100%">
+
+            <div class="post-stats">
+                <div>
+                    <img src="/img/thumbsup.png">
+                    <img src="/img/love.png">
+                    <img src="/img/clap.png">
+                    <span class="liked-users">Hekekee sv aefvb and 75 others</span>                    
+                </div>
+
+                <div>
+                    <span>22 comments &middot; 40 shares</span>
+                </div>
+            </div>
+
+            <div class="post-activity">
+                <div>
+                    <img src="/img/user-1.png" class="post-activity-user-icon">
+                    <img src="/img/down-arrow.png" class="post-activity-arrow-icon">
+                </div>
+                <div class="post-activity-link">
+                    <img src="/img/like.png">
+                    <span>Like</span>
+                </div>
+                <div class="post-activity-link">
+                    <img src="/img/comment.png">
+                    <span>Comment</span>
+                </div>
+                <div class="post-activity-link">
+                    <img src="/img/share.png">
+                    <span>Share</span>
+                </div>
+                <div class="post-activity-link">
+                    <img src="/img/send.png">
+                    <span>Send</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="post">
+            <div class="post-author">
+                <img src="/img/user-2.png">
+                <div>
+                    <h1>Benjamin Leo</h1>
+                    <small>Founder and CEO at Gelleio Group | Angel Investor</small>
+                    <small>2 hours ago</small>
+                </div>
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam ipsam sed beatae. Aut quae quo consectetur necessitatibus deserunt magni consequatur aliquam quisquam dolorem adipisci, nobis tempore distinctio vero ipsa ipsam?</p>
+            <img src="/img/post-image-3.png" width="100%">
+
+            <div class="post-stats">
+                <div>
+                    <img src="/img/thumbsup.png">
+                    <img src="/img/love.png">
+                    <img src="/img/clap.png">
+                    <span class="liked-users">Hekekee sv aefvb and 75 others</span>                    
+                </div>
+
+                <div>
+                    <span>22 comments &middot; 40 shares</span>
+                </div>
+            </div>
+
+            <div class="post-activity">
+                <div>
+                    <img src="/img/user-1.png" class="post-activity-user-icon">
+                    <img src="/img/down-arrow.png" class="post-activity-arrow-icon">
+                </div>
+                <div class="post-activity-link">
+                    <img src="/img/like.png">
+                    <span>Like</span>
+                </div>
+                <div class="post-activity-link">
+                    <img src="/img/comment.png">
+                    <span>Comment</span>
+                </div>
+                <div class="post-activity-link">
+                    <img src="/img/share.png">
+                    <span>Share</span>
+                </div>
+                <div class="post-activity-link">
+                    <img src="/img/send.png">
+                    <span>Send</span>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- right-sidebar -->
+    <div class="right-sidebar">
+
+        <div class="sidebar-profile-box">
+            <img src="/img/cover-pic.png"  width=" 100%" style="border-radius: 10px 10px 0px 0px;">
+            <div class="sidebar-profile-info">
+                <img src="/img/user-1.png">
+                <h1>Fulano de Tal</h1>
+                <h3>Distributor</h3>
+                <ul>
+                    <li>Your profile views<span>52</span></li>
+                    <li>Your post views<span>522</span></li>
+                    <li>Your connections views<span>902</span></li>
+                </ul>
+            </div>
+            <div class="sidebar-profile-link">
+                <a href="#"><img src="/img/items.png">My itens</a>
+                <a href="#"><img src="/img/premium.png">Try Premium</a>
+            </div>
+        </div> <br>
+
+        <div class="sidebar-news1" > 
+            
+            <h1>Empresa </h1>
+            <h3>Tipo: Manufacture</h3>
+            <h3>Core Business</h3>
+            <br>    
+            
+            <div>
+                <a href="#">Meus Matches</a>
+                <span>38</span>
+
+                <a href="#">Careers growing horinzontally too</a>
+                <span>19d ago &middot; 10,555 readers</span>
+
+                <a href="#">Less work visa for US, more for UK</a>
+                <span>1d ago &middot; 27,290 readers</span>
+
+                <a href="#">High demand for skilled manpower</a>
+                <span>1d ago &middot; 10,934 readers</span>
+
+                <a href="#">Gautam Adani is the world's third richest</a>
+                <span>1d ago &middot; 10,934 readers</span>
+
+                <a href="#" class="read-more-link">Read more</a>
+            </div>
+            
+        </div>
+
+        
+        <div class="sidebar-ad">
+            <small>Ad &middot; &middot; &middot;</small>
+            <p>Master the 5 principles of web desing</p>
+            <div>
+                <img src="/img/user-1.png">
+                <img src="/img/mi-logo.png">
+            </div>
+            <b>Brand and Demand in Xiaomi</b>
+            <a href="#" class="ad-link">Learn More</a>
+        </div>
+
+        <div class="sidebar-useful-links">
+            <a href="#">About</a>
+            <a href="#">Accessiblity</a>
+            <a href="#">Help Center</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Advertising</a>
+            <a href="#">Get the App</a>
+            <a href="#">More</a>
+
+            <div class="copyright-msg">
+                <img src="/img/Draft Logo MB.jpg">
+                <p>Likedup &#169; 2022. All right reserved</p>
+            </div>
+        </div>
+    </div>
+  </div>
+
+  <script>
+
+    let profileMenu = document.getElementById("profileMenu");
+
+    function toggleMenu(){
+        profileMenu.classList.toggle("open-menu");
+    }
+
+  </script>
+
+  <script>
+    
+    let sideActivity = document.getElementById("sidebarActivity");
+    let moreLink = document.getElementById("showMoreLink");
+
+    function toggleActivity(){
+        sideActivity.classList.toggle("open-activity");
+
+        if(sideActivity.classList.contains("open-activity")){
+            moreLink.innerHTML = "Mostrar menos <b>-</b>";
+        } else {
+            moreLink.innerHTML = "Mostrar mais <b>+</b>";
+        }
+    }
+
+  </script>
+
+</body>
+</html>
